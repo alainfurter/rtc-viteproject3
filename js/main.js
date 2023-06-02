@@ -62,9 +62,13 @@ const renderMain = () => {
 const renderFooter = () => {
   const footerTemplate = () => `
     <footer>
-      <a href="mailto:alain.furter@gmail.com"
-      >contact me on alain.furter@gmail.com</a>
-    </footer>
+      <a href="mailto:alain.furter@gmail.com">
+        <h3>Contact me</h3>
+        <div class="email-image-container">
+          <img src="images/mail-icon-white.png" alt="Email Icon">
+        </div>
+      </a>
+    </footer> 
   `;
   const bodyElement = document.querySelector('body');
   bodyElement.innerHTML += footerTemplate();

@@ -308,14 +308,45 @@ footer {
   background-color: var(--footer-bg-color);
   display: flex;
   justify-content: flex-end;
-  padding: 50px;
+  padding: 20px;
   margin-top: auto;
 }
 
 footer a {
   text-decoration: none;
   color: var(--footer-txt-color);
+  display: flex;
+  height: 50px;
+  gap: 10px;
+  align-items: center;
+
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
 }
+
+footer a:hover {
+  text-decoration: none;
+  color: var(--footer-txt-color);
+  display: flex;
+  height: 50px;
+  gap: 10px;
+  align-items: center;
+
+  border: white solid 1px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer .email-image-container {
+  width: 25px;
+  padding-top: 5px;
+}
+
+footer .email-image-container > img {
+  width: 100%;
+}
+
 
 @media screen and (max-width:1000px) {
   .project-card {
