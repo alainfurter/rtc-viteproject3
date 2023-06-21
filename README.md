@@ -1,2 +1,2 @@
 # rtc-viteproject3
-RTC Vice Example Project 3
+Example developer portfolio / CV page in Vite, HTML, CSS and Javascript.
